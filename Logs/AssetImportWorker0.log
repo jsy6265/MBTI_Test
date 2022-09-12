@@ -1,0 +1,1329 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.7f1 (24e8595d6d43) revision 2418777'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Education' Language: 'ko' Physical Memory: 16255 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Gura/Desktop/whfwkr/MBTITest
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56710
+Successfully changed project path to: C:/Users/Gura/Desktop/whfwkr/MBTITest
+C:/Users/Gura/Desktop/whfwkr/MBTITest
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 70.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.7f1 (24e8595d6d43)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Gura/Desktop/whfwkr/MBTITest/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12142 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006744 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 68.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.560 seconds
+Domain Reload Profiling:
+	ReloadAssembly (560ms)
+		BeginReloadAssembly (65ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (400ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (91ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (243ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (49ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (69ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007572 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Gura\Desktop\whfwkr\MBTITest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Gura\Desktop\whfwkr\MBTITest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.998 seconds
+Domain Reload Profiling:
+	ReloadAssembly (998ms)
+		BeginReloadAssembly (208ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (128ms)
+		EndReloadAssembly (690ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (224ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (314ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3403 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (56.3 KB). Loaded Objects now: 3873.
+Memory consumption went from 121.4 MB to 121.3 MB.
+Total: 2.387000 ms (FindLiveObjects: 0.250100 ms CreateObjectMapping: 0.214600 ms MarkObjects: 1.859500 ms  DeleteObjects: 0.061900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2103151.267043 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.008456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/카톡
+  artifactKey: Guid(b5e42c4e8fb08b349848a353f2043de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/카톡 using Guid(b5e42c4e8fb08b349848a353f2043de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5acee40b0a93fc970dc13f1e2659540') in 0.004051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.607458 seconds.
+  path: Assets/New Folder
+  artifactKey: Guid(f6366d91213236a468b037bab58b37ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder using Guid(f6366d91213236a468b037bab58b37ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665b1879ee799c7fd015cce85a91aeb5') in 0.005014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.259292 seconds.
+  path: Assets/Img
+  artifactKey: Guid(323768c470ceabe49846b02b3e54361d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img using Guid(323768c470ceabe49846b02b3e54361d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf856d75c37fe02363d2faf7db96612') in 0.004717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027394 seconds.
+  path: Assets/Img/로고.png
+  artifactKey: Guid(c4ea19d43cfc0434e8b349b5204d6062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/로고.png using Guid(c4ea19d43cfc0434e8b349b5204d6062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f1514acb03d296a94fcedb5e58a989') in 0.203843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Img/설정 페이지 사진들.png
+  artifactKey: Guid(56aab6041c26da340a87be0c9631be9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/설정 페이지 사진들.png using Guid(56aab6041c26da340a87be0c9631be9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b84dc11bf079913edaee2c26ab90dc6') in 0.096523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Img/츄르 옵션.png
+  artifactKey: Guid(02e21e44ac569454b9744b11b378a981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/츄르 옵션.png using Guid(02e21e44ac569454b9744b11b378a981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb22b85aee19365fc2f76451b8347af0') in 0.022338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Img/메인페이지 그림자.png
+  artifactKey: Guid(e9c8f27cbb17aee48bba0bb90eb8734e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/메인페이지 그림자.png using Guid(e9c8f27cbb17aee48bba0bb90eb8734e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea4d02fe69e0fee965a16e30f92bd6d') in 0.087099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Img/설정페이지 글자.png
+  artifactKey: Guid(acae0290ea842974cafc2e6301698205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/설정페이지 글자.png using Guid(acae0290ea842974cafc2e6301698205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7311fe4aed2ebcac1d86deb2b876531') in 0.083075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Img/츄르 나가기.png
+  artifactKey: Guid(06db51462ffa989489afa2f85c9d99d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/츄르 나가기.png using Guid(06db51462ffa989489afa2f85c9d99d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdaf738de643405b9d01ec2b08e094ed') in 0.021981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Img/메인 고양이.png
+  artifactKey: Guid(9c2656f9c395f8346b26959a7b9bf45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/메인 고양이.png using Guid(9c2656f9c395f8346b26959a7b9bf45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa46565bcf91603aafbcec6fdfe8d1a') in 0.088587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Img/메인페이지.png
+  artifactKey: Guid(0fe60558c88e513449ad82aab59276dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/메인페이지.png using Guid(0fe60558c88e513449ad82aab59276dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7979c1313ca839a5f127ed7b802afda') in 0.090369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Img/설정페이지.png
+  artifactKey: Guid(3e4fbd670940ef2418ea966735518b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/설정페이지.png using Guid(3e4fbd670940ef2418ea966735518b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15e99822cc0b4aa4567c660b0d9c8c1') in 0.098352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Img/실뭉치 단품.png
+  artifactKey: Guid(56b8e715856bbb142b60fbacc5e09351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/실뭉치 단품.png using Guid(56b8e715856bbb142b60fbacc5e09351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924877e4701e8ae6d8300d9d349fbf51') in 0.015314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Img/츄르 스타트.png
+  artifactKey: Guid(f8196a13a3f6b3c4c9340e93506b6618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/츄르 스타트.png using Guid(f8196a13a3f6b3c4c9340e93506b6618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a109ecf93357596194ade4fb3f140981') in 0.023110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Img/배경.png
+  artifactKey: Guid(9198c0a63d1d53c47981deb42020e274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/배경.png using Guid(9198c0a63d1d53c47981deb42020e274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8459be4e2c622af86dcf421d0d46ba2') in 0.074360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Img/설정판.png
+  artifactKey: Guid(6f966e60039e82d47bad3f4b6014cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/설정판.png using Guid(6f966e60039e82d47bad3f4b6014cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1212802cbca04b1ef99edda293e5d51f') in 0.081959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Img/실 단품.png
+  artifactKey: Guid(5a4e85df42a2490479b2a444419acc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/실 단품.png using Guid(5a4e85df42a2490479b2a444419acc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff82a5e95b1c6b6b1457ebc898af5c3d') in 0.021996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.182978 seconds.
+  path: Assets/Img/main
+  artifactKey: Guid(c6415e596e08a904bbeb2e4164167295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/main using Guid(c6415e596e08a904bbeb2e4164167295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a14d7ab754c1440c6dc681c0910384') in 0.004849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.920923 seconds.
+  path: Assets/Img/main.clip
+  artifactKey: Guid(6ff432f799470d947b0c4ec28eccea1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/main.clip using Guid(6ff432f799470d947b0c4ec28eccea1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0b8fb69e80b6afc07a55099ecf016b') in 0.008025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.485743 seconds.
+  path: Assets/Img/Main
+  artifactKey: Guid(c6415e596e08a904bbeb2e4164167295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/Main using Guid(c6415e596e08a904bbeb2e4164167295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34de9fb0b65ac8917d69d791840c0f63') in 0.005547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.245472 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.006791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 278.772671 seconds.
+  path: Assets/Scenes/New Scene.unity
+  artifactKey: Guid(fcaa78e699af19b41a04487f0649439d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Scene.unity using Guid(fcaa78e699af19b41a04487f0649439d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a35e199bf26543efc5f235796f43ce') in 0.005529 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006713 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Gura\Desktop\whfwkr\MBTITest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Gura\Desktop\whfwkr\MBTITest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.850 seconds
+Domain Reload Profiling:
+	ReloadAssembly (850ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (643ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (230ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (269ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (164ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3395 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (25.2 KB). Loaded Objects now: 3897.
+Memory consumption went from 125.6 MB to 125.5 MB.
+Total: 2.501000 ms (FindLiveObjects: 0.246400 ms CreateObjectMapping: 0.131500 ms MarkObjects: 2.103700 ms  DeleteObjects: 0.018600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 659.002999 seconds.
+  path: Assets/Img/카톡/배경
+  artifactKey: Guid(ce89eefa134c03e4c8427655353da569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/배경 using Guid(ce89eefa134c03e4c8427655353da569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9ca4afae5a1704f01454b7d1555fa3') in 0.010717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036685 seconds.
+  path: Assets/Img/카톡/배경/밑 배경.png
+  artifactKey: Guid(3561dbd413c88664087f315f632644c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/배경/밑 배경.png using Guid(3561dbd413c88664087f315f632644c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec6d826425e2e21254573a72d53902c') in 0.052455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Img/카톡/배경/배경.png
+  artifactKey: Guid(2cedbbf6c3973f94c9492203562697e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/배경/배경.png using Guid(2cedbbf6c3973f94c9492203562697e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722e715d057b75e012429dc961fadcfa') in 0.025094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Img/카톡/배경/밑 배경2.png
+  artifactKey: Guid(1a398782ae5f92d4195d10c335bc2505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/배경/밑 배경2.png using Guid(1a398782ae5f92d4195d10c335bc2505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eeb26ca1257e3d75ee88b7ae1eda215') in 0.012285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.392239 seconds.
+  path: Assets/Img/카톡/배경/밑 배경.png
+  artifactKey: Guid(3561dbd413c88664087f315f632644c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/배경/밑 배경.png using Guid(3561dbd413c88664087f315f632644c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239f47c15792919897067a7ff1cc0ac9') in 0.097578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Img/카톡/배경/배경.png
+  artifactKey: Guid(2cedbbf6c3973f94c9492203562697e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/배경/배경.png using Guid(2cedbbf6c3973f94c9492203562697e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676db23dc951ac81049e4bfb85e33837') in 0.121342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Img/카톡/배경/밑 배경2.png
+  artifactKey: Guid(1a398782ae5f92d4195d10c335bc2505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/배경/밑 배경2.png using Guid(1a398782ae5f92d4195d10c335bc2505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85bfb2001ff9cf1f58926ebc4921b2fa') in 0.064162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.290926 seconds.
+  path: Assets/Img/카톡/대화창/본인 대화창 1.png
+  artifactKey: Guid(31305a6c96601dd4e821352547c75bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/대화창/본인 대화창 1.png using Guid(31305a6c96601dd4e821352547c75bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '024e710217de3e8749373515855d2761') in 0.010773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Img/카톡/대화창/상대방 대화창 2.png
+  artifactKey: Guid(d76a125a771383340977eb9923effcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/대화창/상대방 대화창 2.png using Guid(d76a125a771383340977eb9923effcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1f36c9e0935ee9bdd7288840f97085') in 0.010161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Img/카톡/대화창/본인 최초 대화창.png
+  artifactKey: Guid(e2052ee05dfdbb74a9cc64dd5bf97d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/대화창/본인 최초 대화창.png using Guid(e2052ee05dfdbb74a9cc64dd5bf97d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4dd9bc0953889226c52964d99b80d18') in 0.009881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Img/카톡/대화창/본인 대화창 2.png
+  artifactKey: Guid(46d216df535362646b496dd26b3bb6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/대화창/본인 대화창 2.png using Guid(46d216df535362646b496dd26b3bb6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0a8541115f3ac3a2ca100fb37fb241') in 0.009724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Img/카톡/대화창/상대방 대화창 1.png
+  artifactKey: Guid(16f508161bad790499097e64d576ab0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/대화창/상대방 대화창 1.png using Guid(16f508161bad790499097e64d576ab0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc6272c32f79633a20f9d08e8575d23') in 0.009461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Img/카톡/대화창/상대방 최초 대화.png
+  artifactKey: Guid(9a46f4eb48c6dcb47864793a5c3f471d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/대화창/상대방 최초 대화.png using Guid(9a46f4eb48c6dcb47864793a5c3f471d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09af170dfe1304b57931d65a80375501') in 0.009623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.253142 seconds.
+  path: Assets/Img/카톡/대화창/본인 대화창 1.png
+  artifactKey: Guid(31305a6c96601dd4e821352547c75bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/대화창/본인 대화창 1.png using Guid(31305a6c96601dd4e821352547c75bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6c3a6a71f1a555019f61b23b8349a8') in 0.017343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Img/카톡/대화창/상대방 대화창 2.png
+  artifactKey: Guid(d76a125a771383340977eb9923effcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/대화창/상대방 대화창 2.png using Guid(d76a125a771383340977eb9923effcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d016be278ac47fafcd9dc2eb45900c2') in 0.012882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Img/카톡/대화창/본인 최초 대화창.png
+  artifactKey: Guid(e2052ee05dfdbb74a9cc64dd5bf97d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/대화창/본인 최초 대화창.png using Guid(e2052ee05dfdbb74a9cc64dd5bf97d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3600500bd63223e5e02180c9daba3e1e') in 0.011800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Img/카톡/대화창/본인 대화창 2.png
+  artifactKey: Guid(46d216df535362646b496dd26b3bb6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/대화창/본인 대화창 2.png using Guid(46d216df535362646b496dd26b3bb6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e702da1a0c2933d668baa8c7fbe31e') in 0.015333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Img/카톡/대화창/상대방 대화창 1.png
+  artifactKey: Guid(16f508161bad790499097e64d576ab0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/대화창/상대방 대화창 1.png using Guid(16f508161bad790499097e64d576ab0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a3ff6c21347d2db354a71994e532a1') in 0.008643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Img/카톡/대화창/상대방 최초 대화.png
+  artifactKey: Guid(9a46f4eb48c6dcb47864793a5c3f471d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/대화창/상대방 최초 대화.png using Guid(9a46f4eb48c6dcb47864793a5c3f471d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6718ecd4265cd85aac4cfd92858d87') in 0.011115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.986345 seconds.
+  path: Assets/Img/카톡/UI/#.png
+  artifactKey: Guid(d37f704f451f43f459c9b0f03090b296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/UI/#.png using Guid(d37f704f451f43f459c9b0f03090b296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661afffdb8f3032a67d2ad8835c9e488') in 0.008960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Img/카톡/UI/돋보기.png
+  artifactKey: Guid(07ccdbd5dac180748bc3b634cf98b911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/UI/돋보기.png using Guid(07ccdbd5dac180748bc3b634cf98b911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f999ed0d9bf46e517bd1aa2ff5e024') in 0.011008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Img/카톡/UI/카톡 대화창.png
+  artifactKey: Guid(a678a2da38024b546ad0e9630a75e7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/UI/카톡 대화창.png using Guid(a678a2da38024b546ad0e9630a75e7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8bb9e176163b471b82ba7b9d2d35de') in 0.009804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Img/카톡/UI/메뉴.png
+  artifactKey: Guid(baf59d202ed6fbf4eb0af41c183aa904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/UI/메뉴.png using Guid(baf59d202ed6fbf4eb0af41c183aa904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0cb61add03c4ab274abaa35307c21e') in 0.009568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Img/카톡/UI/화살표.png
+  artifactKey: Guid(e75ea11ac876ed64f9a603e89adaedb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/UI/화살표.png using Guid(e75ea11ac876ed64f9a603e89adaedb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8abe0ab20bab988dfe813736651c4cfd') in 0.009178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Img/카톡/UI/친구 사진.png
+  artifactKey: Guid(7083f1ba84ce5174db09a8b504409b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/UI/친구 사진.png using Guid(7083f1ba84ce5174db09a8b504409b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942f54eed1c3bdc8af5295aff305e9a3') in 0.010816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Img/카톡/UI/사진 첨부.png
+  artifactKey: Guid(92a2c9edef70b1f42939e640a0426126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/UI/사진 첨부.png using Guid(92a2c9edef70b1f42939e640a0426126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5fddbda521e636c5c693d9c7cbea4d8') in 0.009279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Img/카톡/UI/이모티콘.png
+  artifactKey: Guid(56d949bfa67bc054ea862b1d08c860df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/UI/이모티콘.png using Guid(56d949bfa67bc054ea862b1d08c860df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2643ee4a7c434a37c8d9c69f4afe06d') in 0.009488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.469276 seconds.
+  path: Assets/Img/카톡/UI/#.png
+  artifactKey: Guid(d37f704f451f43f459c9b0f03090b296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/UI/#.png using Guid(d37f704f451f43f459c9b0f03090b296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa485d8dbe087a615ec0f0ad83f5577c') in 0.012064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Img/카톡/UI/돋보기.png
+  artifactKey: Guid(07ccdbd5dac180748bc3b634cf98b911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/UI/돋보기.png using Guid(07ccdbd5dac180748bc3b634cf98b911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a2e5ab5fe6c8377240e20a00d79c63') in 0.010799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Img/카톡/UI/카톡 대화창.png
+  artifactKey: Guid(a678a2da38024b546ad0e9630a75e7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/UI/카톡 대화창.png using Guid(a678a2da38024b546ad0e9630a75e7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4482d0461b338966e04eb65b2438665') in 0.015818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Img/카톡/UI/메뉴.png
+  artifactKey: Guid(baf59d202ed6fbf4eb0af41c183aa904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/UI/메뉴.png using Guid(baf59d202ed6fbf4eb0af41c183aa904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '456d2b47a1661a391d88902d51f9b5c5') in 0.011632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Img/카톡/UI/화살표.png
+  artifactKey: Guid(e75ea11ac876ed64f9a603e89adaedb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/UI/화살표.png using Guid(e75ea11ac876ed64f9a603e89adaedb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0878f9ed7ef54ec052153363508746e9') in 0.011362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Img/카톡/UI/친구 사진.png
+  artifactKey: Guid(7083f1ba84ce5174db09a8b504409b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/UI/친구 사진.png using Guid(7083f1ba84ce5174db09a8b504409b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a90abe34dfa36170e0e9aa4c0f9c84b') in 0.018863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Img/카톡/UI/사진 첨부.png
+  artifactKey: Guid(92a2c9edef70b1f42939e640a0426126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/UI/사진 첨부.png using Guid(92a2c9edef70b1f42939e640a0426126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f68ab0b0cb141bddd84410d6a2a7d5') in 0.012612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Img/카톡/UI/이모티콘.png
+  artifactKey: Guid(56d949bfa67bc054ea862b1d08c860df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/UI/이모티콘.png using Guid(56d949bfa67bc054ea862b1d08c860df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b94d4d488fea8a28add822f14ec0c4') in 0.013809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 363.950225 seconds.
+  path: Assets/Img/카톡/UI/카톡 대화창.png
+  artifactKey: Guid(a678a2da38024b546ad0e9630a75e7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/UI/카톡 대화창.png using Guid(a678a2da38024b546ad0e9630a75e7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d7eef20e223f50796fb5bb0fa50fc2') in 0.009206 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007323 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Gura\Desktop\whfwkr\MBTITest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Gura\Desktop\whfwkr\MBTITest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.874 seconds
+Domain Reload Profiling:
+	ReloadAssembly (875ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (658ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (234ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (281ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3442 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (0.7 MB). Loaded Objects now: 3978.
+Memory consumption went from 128.9 MB to 128.3 MB.
+Total: 2.695800 ms (FindLiveObjects: 0.228300 ms CreateObjectMapping: 0.134100 ms MarkObjects: 2.024600 ms  DeleteObjects: 0.307600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1028.244727 seconds.
+  path: Assets/Img/카톡/UI/KakaoTalk_20220913_004946903.png
+  artifactKey: Guid(fce6e151ba238f44685c5b498c4383d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/UI/KakaoTalk_20220913_004946903.png using Guid(fce6e151ba238f44685c5b498c4383d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f8f348bc4047a3921e677fe20e2a1b') in 0.047472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.597056 seconds.
+  path: Assets/Img/카톡/UI/KakaoTalk_20220913_004946903.png
+  artifactKey: Guid(fce6e151ba238f44685c5b498c4383d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/UI/KakaoTalk_20220913_004946903.png using Guid(fce6e151ba238f44685c5b498c4383d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e14a7e4ce51ad19c80510cb7022037') in 0.104052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 258.406313 seconds.
+  path: Assets/Img/카톡/UI/Face.png
+  artifactKey: Guid(f6b213fa4b9007d4087adf1be64551ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/UI/Face.png using Guid(f6b213fa4b9007d4087adf1be64551ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1ac1572ff3c2e21678bca04183a160') in 0.012427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.244969 seconds.
+  path: Assets/Img/카톡/UI/Face.png
+  artifactKey: Guid(f6b213fa4b9007d4087adf1be64551ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/카톡/UI/Face.png using Guid(f6b213fa4b9007d4087adf1be64551ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9823a93034286493932199bd40d8a01') in 0.021721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 351.766701 seconds.
+  path: Assets/Fornt
+  artifactKey: Guid(835ccd4f3227c78449610ca0774671a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fornt using Guid(835ccd4f3227c78449610ca0774671a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3d29b59c6c300a6d4f1a4098d1e335') in 0.005476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.300455 seconds.
+  path: Assets/Fornt/야놀자 야체 OTF Bold.otf
+  artifactKey: Guid(90ead2aee6e597f4d81ccd5615b3c7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fornt/야놀자 야체 OTF Bold.otf using Guid(90ead2aee6e597f4d81ccd5615b3c7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3d9a2e62f6f069b0d888c2f6af300a') in 0.045417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 174.979527 seconds.
+  path: Assets/Fornt/YaNolJa.otf
+  artifactKey: Guid(90ead2aee6e597f4d81ccd5615b3c7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fornt/YaNolJa.otf using Guid(90ead2aee6e597f4d81ccd5615b3c7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d63233de488cbdd07f28440b24a32de') in 0.015152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.628688 seconds.
+  path: Assets/Fornt/YaNolJa SDF.asset
+  artifactKey: Guid(e1d30ad31f1dd214ca86ff0198dab588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fornt/YaNolJa SDF.asset using Guid(e1d30ad31f1dd214ca86ff0198dab588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e7d459820deedbf4c9b6436b5bf3b9') in 0.329447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1818.109377 seconds.
+  path: Assets/Img/스테이지 E,I
+  artifactKey: Guid(4807aed6d99d0cc48893a724b78ba3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I using Guid(4807aed6d99d0cc48893a724b78ba3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88dfd67dad66fd091091d009fae0701c') in 0.005898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.619137 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1
+  artifactKey: Guid(d542910ede9f7144e8155bf9b339ba50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1 using Guid(d542910ede9f7144e8155bf9b339ba50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb29f78111285c14266357b1e8bf40bc') in 0.006587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040188 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/뒷 배경.png
+  artifactKey: Guid(03a0a6eaf74357b4b92945824b7b0055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/뒷 배경.png using Guid(03a0a6eaf74357b4b92945824b7b0055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f9aaf41cc432a0f86c5afda0bd8a69') in 0.076877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/전체 이미지.png
+  artifactKey: Guid(46a5d27868f4a6142bd6bea167090a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/전체 이미지.png using Guid(46a5d27868f4a6142bd6bea167090a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8edc91a775ffd95500e5e42f73a2f065') in 0.017857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/책, 선반.png
+  artifactKey: Guid(b2d593e06d9a42e4684d20e26c5541ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/책, 선반.png using Guid(b2d593e06d9a42e4684d20e26c5541ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44631ff925051508470f8366327cb6cd') in 0.014667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/완전 흰 배경.png
+  artifactKey: Guid(26c897d390370df488dfdf6f0174aead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/완전 흰 배경.png using Guid(26c897d390370df488dfdf6f0174aead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65470ed9d2461b74058a16dfb199c58') in 0.016748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/침대, 바닥 라인.png
+  artifactKey: Guid(13e5f183c70c6bf4b806e2bcb640aa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/침대, 바닥 라인.png using Guid(13e5f183c70c6bf4b806e2bcb640aa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e059dbcaac57b9928ef3680dad66f4') in 0.014846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/배개.png
+  artifactKey: Guid(a9ad64a01bd0fdc4cb76d93349d20119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/배개.png using Guid(a9ad64a01bd0fdc4cb76d93349d20119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1ef233b48e34a8fe8da529365e6f8e') in 0.015099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/디퓨저.png
+  artifactKey: Guid(01f6f2ebd51c9304891b52063be528a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/디퓨저.png using Guid(01f6f2ebd51c9304891b52063be528a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae8555b6dc1972c1b91731b9460a3fe') in 0.014413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/창문 블라인더.png
+  artifactKey: Guid(773ced2313051f94f97ecaa9cb56af1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/창문 블라인더.png using Guid(773ced2313051f94f97ecaa9cb56af1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f16de6b1e195be2ede07dde3db1368') in 0.014852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/창문.png
+  artifactKey: Guid(c84ffae170ea5be47afa34f4b334dd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/창문.png using Guid(c84ffae170ea5be47afa34f4b334dd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b38e4d5e59b8af03abaabdf0ad74ae8a') in 0.017768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.549085 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/애니메이션
+  artifactKey: Guid(c79a243e25018834397f3ef02c088bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/애니메이션 using Guid(c79a243e25018834397f3ef02c088bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db98778a5e3378d2762e679b343f829') in 0.004935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.070924 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/애니메이션/고양이 시계 애니메이션.fbx
+  artifactKey: Guid(096d6478e37cda845bd79f7dcbde5d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/애니메이션/고양이 시계 애니메이션.fbx using Guid(096d6478e37cda845bd79f7dcbde5d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb95eb49af6713c9d93c769f6369c232') in 0.226868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/애니메이션/고양이 애니메.fbx
+  artifactKey: Guid(3e8527752f804cc4baaf635b49b5dc9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/애니메이션/고양이 애니메.fbx using Guid(3e8527752f804cc4baaf635b49b5dc9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8782ce0e2cf784b01cc450223518abc7') in 0.013567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/애니메이션/청소기 애니메.fbx
+  artifactKey: Guid(1847a71b050a3ea428c435e3afed1150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/애니메이션/청소기 애니메.fbx using Guid(1847a71b050a3ea428c435e3afed1150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75aaffd42e72dcdba844f03c61fdeba8') in 0.014914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/애니메이션/휴대폰 애니메.fbx
+  artifactKey: Guid(04702b80b06ba70448ae734b221920f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/애니메이션/휴대폰 애니메.fbx using Guid(04702b80b06ba70448ae734b221920f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455159228577384667c81abb555b5639') in 0.012596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.845586 seconds.
+  path: Assets/Scenes/New Scene.unity
+  artifactKey: Guid(fcaa78e699af19b41a04487f0649439d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Scene.unity using Guid(fcaa78e699af19b41a04487f0649439d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec355f3e25accc176efe571863d719ac') in 0.004593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.980473 seconds.
+  path: Assets/Scenes/TF_#.unity
+  artifactKey: Guid(fcaa78e699af19b41a04487f0649439d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TF_#.unity using Guid(fcaa78e699af19b41a04487f0649439d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e971b622c9b7710827f2dea11420aa3') in 0.004785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.856597 seconds.
+  path: Assets/Scenes/Stage1.unity
+  artifactKey: Guid(cacdb99d01ae63e41a25e6f6231ebcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage1.unity using Guid(cacdb99d01ae63e41a25e6f6231ebcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb3aefdfbd0f47fe50a24c2961006e8') in 0.004890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.708087 seconds.
+  path: Assets/Scenes/TF_3.unity
+  artifactKey: Guid(fcaa78e699af19b41a04487f0649439d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TF_3.unity using Guid(fcaa78e699af19b41a04487f0649439d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dacb0d79bcbe21b45fbc769e9f534a6f') in 0.005309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.082111 seconds.
+  path: Assets/Scenes/EI_1.unity
+  artifactKey: Guid(ef5f748333461894bb8c228428a9efaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/EI_1.unity using Guid(ef5f748333461894bb8c228428a9efaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585307279f041ffb9fa5263f454f3690') in 0.005495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.393839 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/거절.png
+  artifactKey: Guid(3b0400a0e11662843ac2d9d48bf7d34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/거절.png using Guid(3b0400a0e11662843ac2d9d48bf7d34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f727f63d967b04d55a5feca04b022628') in 0.016137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/메시지.png
+  artifactKey: Guid(68a8dfe7370394e4db22a2ba669949e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/메시지.png using Guid(68a8dfe7370394e4db22a2ba669949e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73dd3da72e281c34561761fa3f0cac94') in 0.014073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/배터리 표시.png
+  artifactKey: Guid(32966c7a42b3e074fbfdef68e4e34e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/배터리 표시.png using Guid(32966c7a42b3e074fbfdef68e4e34e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986e3df45859b34f37e63d53e7bc16eb') in 0.015032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/밑에 흰색 줄.png
+  artifactKey: Guid(b5d7fe5179bc53b498cd3f48a9f53504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/밑에 흰색 줄.png using Guid(b5d7fe5179bc53b498cd3f48a9f53504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692c9d73f4138503fee399fbe7e6db16') in 0.013645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/아이폰 14.jpeg
+  artifactKey: Guid(26dcf52bb7975c3469359286710188df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/아이폰 14.jpeg using Guid(26dcf52bb7975c3469359286710188df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a188ddd19ac314cbb8b528187eb5dc51') in 0.017681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/응답.png
+  artifactKey: Guid(3eaf8db8f8a4afa49ae7daf835a034ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/응답.png using Guid(3eaf8db8f8a4afa49ae7daf835a034ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598e6f63776192da30b0ca85a4e4cfe0') in 0.014099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/고양이 팔.png
+  artifactKey: Guid(f9668d88ccf0baf4eaaccc8fd5197318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/고양이 팔.png using Guid(f9668d88ccf0baf4eaaccc8fd5197318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245cea714bd2aeb1a00e36ff456f8039') in 0.014417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/시계.png
+  artifactKey: Guid(18f7ed517d452ee43af2159f8659c016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/시계.png using Guid(18f7ed517d452ee43af2159f8659c016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a31dfaadc84428a9627e796c372cb5') in 0.013697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/와이파이.png
+  artifactKey: Guid(9d56d3404f01bac4c8e028558eadc27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/와이파이.png using Guid(9d56d3404f01bac4c8e028558eadc27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881546301f659862d181da0bc688e565') in 0.013936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/배경 색.png
+  artifactKey: Guid(f86e703adaf4c4c4ea3ed8045c46294c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/배경 색.png using Guid(f86e703adaf4c4c4ea3ed8045c46294c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a66694aadfa7fd50ac01f341e8f3d43') in 0.015384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/발바닥.png
+  artifactKey: Guid(4fe1360231c92b54cb92c5553937e026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/발바닥.png using Guid(4fe1360231c92b54cb92c5553937e026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b30c4269894d08b6410ba1df3c1ef7') in 0.012710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/휴대폰 전체 모습.png
+  artifactKey: Guid(240e38b97c27c1b48bfe4bd708009fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/휴대폰 전체 모습.png using Guid(240e38b97c27c1b48bfe4bd708009fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31fcd0fadb376154ec3318db7ca154ae') in 0.015211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/전파 표시.png
+  artifactKey: Guid(673fe7ba804946d449bf0bf2957ced32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/전파 표시.png using Guid(673fe7ba804946d449bf0bf2957ced32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d61b5de31d0feea26a2c56b93d16062') in 0.014745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 175.480423 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/고양이.png
+  artifactKey: Guid(1e2a1ef48542b4e4286aff1159eab56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/고양이.png using Guid(1e2a1ef48542b4e4286aff1159eab56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eccbe9d8b308cc98c0f462d205228efc') in 0.015364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/청소기.png
+  artifactKey: Guid(776881e2a8fb5834b8a44edcac9b1d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/청소기.png using Guid(776881e2a8fb5834b8a44edcac9b1d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd464a5db858b7c31d78833ef9077ca1d') in 0.012480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/고양이시계.png
+  artifactKey: Guid(239ef7e60373fa74bacdeee2fb7e49f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/고양이시계.png using Guid(239ef7e60373fa74bacdeee2fb7e49f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178bacf9f126556ff7547286314a366c') in 0.012286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/휴대폰.png
+  artifactKey: Guid(bc90ec91ad415184e8e7e21582e49abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/휴대폰.png using Guid(bc90ec91ad415184e8e7e21582e49abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51e599e274c7cb5567a59154aa2da11') in 0.012961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.259219 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/고양이.png
+  artifactKey: Guid(1e2a1ef48542b4e4286aff1159eab56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/고양이.png using Guid(1e2a1ef48542b4e4286aff1159eab56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8277facd61be3422869d104cadff8b') in 0.154390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/전체 이미지.png
+  artifactKey: Guid(46a5d27868f4a6142bd6bea167090a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/전체 이미지.png using Guid(46a5d27868f4a6142bd6bea167090a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae4a36078cb2940b37b1251e99cd94e') in 0.106141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/청소기.png
+  artifactKey: Guid(776881e2a8fb5834b8a44edcac9b1d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/청소기.png using Guid(776881e2a8fb5834b8a44edcac9b1d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5b5c6efc6502672b5319c99bb7dba9') in 0.093499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/책, 선반.png
+  artifactKey: Guid(b2d593e06d9a42e4684d20e26c5541ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/책, 선반.png using Guid(b2d593e06d9a42e4684d20e26c5541ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e337cf01c1e084067f7d98c308b69494') in 0.101840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/고양이시계.png
+  artifactKey: Guid(239ef7e60373fa74bacdeee2fb7e49f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/고양이시계.png using Guid(239ef7e60373fa74bacdeee2fb7e49f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37735926787655353a7ba86343ff02c4') in 0.094696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/완전 흰 배경.png
+  artifactKey: Guid(26c897d390370df488dfdf6f0174aead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/완전 흰 배경.png using Guid(26c897d390370df488dfdf6f0174aead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae83266265555e10ab3f6977c308819') in 0.091831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/침대, 바닥 라인.png
+  artifactKey: Guid(13e5f183c70c6bf4b806e2bcb640aa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/침대, 바닥 라인.png using Guid(13e5f183c70c6bf4b806e2bcb640aa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f70ca840676a52154c85e48bc9b4340') in 0.092414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/휴대폰.png
+  artifactKey: Guid(bc90ec91ad415184e8e7e21582e49abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/휴대폰.png using Guid(bc90ec91ad415184e8e7e21582e49abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00244d458153c50105e25a3a8cb60fb') in 0.093362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/배개.png
+  artifactKey: Guid(a9ad64a01bd0fdc4cb76d93349d20119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/배개.png using Guid(a9ad64a01bd0fdc4cb76d93349d20119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8cc1d54147b6b123e3ee7c381ee9b1b') in 0.093700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/디퓨저.png
+  artifactKey: Guid(01f6f2ebd51c9304891b52063be528a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/디퓨저.png using Guid(01f6f2ebd51c9304891b52063be528a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc965cc7c62859f7ccd7161d7fc099e9') in 0.093705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/뒷 배경.png
+  artifactKey: Guid(03a0a6eaf74357b4b92945824b7b0055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/뒷 배경.png using Guid(03a0a6eaf74357b4b92945824b7b0055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8c38cddff2f5faa17cac27481495d7') in 0.099820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/창문 블라인더.png
+  artifactKey: Guid(773ced2313051f94f97ecaa9cb56af1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/창문 블라인더.png using Guid(773ced2313051f94f97ecaa9cb56af1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec32e85db156c6cc81d3b9850ca07e2') in 0.094693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/창문.png
+  artifactKey: Guid(c84ffae170ea5be47afa34f4b334dd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/창문.png using Guid(c84ffae170ea5be47afa34f4b334dd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1cd22b1db1367d7796ae158fe64b8b') in 0.093490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.041230 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/CatClock.controller
+  artifactKey: Guid(2ade54ca5cc29ec4087dbe49c1884af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/CatClock.controller using Guid(2ade54ca5cc29ec4087dbe49c1884af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021bc9ef7c574355519bc9ef0f41426f') in 0.008357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.468531 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/애니메이션/New Animator Controller.controller
+  artifactKey: Guid(f6966e563577b344886fde83c339fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/애니메이션/New Animator Controller.controller using Guid(f6966e563577b344886fde83c339fbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08782e443fc615215f4a114e79e8d8a8') in 0.006645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.084401 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/애니메이션/New Animation.anim
+  artifactKey: Guid(c693dfba95e410f4e8aad52c1685fb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/애니메이션/New Animation.anim using Guid(c693dfba95e410f4e8aad52c1685fb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92967e4ad900fc72c6cc308e775a5cb0') in 0.008653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.249145 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/CatClock.controller
+  artifactKey: Guid(2ade54ca5cc29ec4087dbe49c1884af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/CatClock.controller using Guid(2ade54ca5cc29ec4087dbe49c1884af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca76d03174dfea8547323c18c659e134') in 0.002095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 373.347650 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/애니메이션/고양이 시계 애니메이션.fbx
+  artifactKey: Guid(096d6478e37cda845bd79f7dcbde5d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/애니메이션/고양이 시계 애니메이션.fbx using Guid(096d6478e37cda845bd79f7dcbde5d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b5c766a52c0a2e54cac3aafbf273a4') in 0.012472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 256.021291 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/애니메이션/고양이 시계 2.gif
+  artifactKey: Guid(f246ff1b9c46274478ab12c733c995fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/애니메이션/고양이 시계 2.gif using Guid(f246ff1b9c46274478ab12c733c995fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3643528b1abcfb53234f86c0f1875e4e') in 0.020409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.565549 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/애니메이션/고양이 시계 2.gif
+  artifactKey: Guid(f246ff1b9c46274478ab12c733c995fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/애니메이션/고양이 시계 2.gif using Guid(f246ff1b9c46274478ab12c733c995fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af8a29b71917ded43e599a733fcc128') in 0.056301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.134491 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/애니메이션/고양이 시계 2.gif
+  artifactKey: Guid(f246ff1b9c46274478ab12c733c995fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/애니메이션/고양이 시계 2.gif using Guid(f246ff1b9c46274478ab12c733c995fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca91f05f2abf85276f91aeb03264620') in 0.124111 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006667 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Gura\Desktop\whfwkr\MBTITest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Gura\Desktop\whfwkr\MBTITest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.960 seconds
+Domain Reload Profiling:
+	ReloadAssembly (961ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (739ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (268ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (301ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3442 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (0.6 MB). Loaded Objects now: 4033.
+Memory consumption went from 129.6 MB to 129.1 MB.
+Total: 2.764700 ms (FindLiveObjects: 0.250200 ms CreateObjectMapping: 0.151600 ms MarkObjects: 2.021300 ms  DeleteObjects: 0.340900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 30.481967 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트1/애니메이션/고양이 시계 2.gif
+  artifactKey: Guid(f246ff1b9c46274478ab12c733c995fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트1/애니메이션/고양이 시계 2.gif using Guid(f246ff1b9c46274478ab12c733c995fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387bada2236714f7dfd9b50be53dc7ac') in 0.042452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 582.396040 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/거절.png
+  artifactKey: Guid(3b0400a0e11662843ac2d9d48bf7d34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/거절.png using Guid(3b0400a0e11662843ac2d9d48bf7d34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f7a582ced939924abee6aefe0f74eb3') in 0.172373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/메시지.png
+  artifactKey: Guid(68a8dfe7370394e4db22a2ba669949e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/메시지.png using Guid(68a8dfe7370394e4db22a2ba669949e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb2740e110781f524e4d51f7c82cae1e') in 0.123148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/배터리 표시.png
+  artifactKey: Guid(32966c7a42b3e074fbfdef68e4e34e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/배터리 표시.png using Guid(32966c7a42b3e074fbfdef68e4e34e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d13c8d0dc45ae3ea190b86d3b717d4') in 0.107344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/밑에 흰색 줄.png
+  artifactKey: Guid(b5d7fe5179bc53b498cd3f48a9f53504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/밑에 흰색 줄.png using Guid(b5d7fe5179bc53b498cd3f48a9f53504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0772d037da074ccadccaca9a1f3930c8') in 0.103965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/아이폰 14.jpeg
+  artifactKey: Guid(26dcf52bb7975c3469359286710188df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/아이폰 14.jpeg using Guid(26dcf52bb7975c3469359286710188df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1196d5ba8f1b2191c99c88540a52540f') in 0.089423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/응답.png
+  artifactKey: Guid(3eaf8db8f8a4afa49ae7daf835a034ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/응답.png using Guid(3eaf8db8f8a4afa49ae7daf835a034ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c2e9c48b045e9142124a3ec0865666') in 0.106427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/고양이 팔.png
+  artifactKey: Guid(f9668d88ccf0baf4eaaccc8fd5197318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/고양이 팔.png using Guid(f9668d88ccf0baf4eaaccc8fd5197318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e88329de761ee4014448bf3b406777') in 0.099016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/시계.png
+  artifactKey: Guid(18f7ed517d452ee43af2159f8659c016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/시계.png using Guid(18f7ed517d452ee43af2159f8659c016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b7923694f89c56f3246e40faf91a7f') in 0.099868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/와이파이.png
+  artifactKey: Guid(9d56d3404f01bac4c8e028558eadc27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/와이파이.png using Guid(9d56d3404f01bac4c8e028558eadc27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3419d9acb7751f7d338faa8c56c9ff84') in 0.095109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/배경 색.png
+  artifactKey: Guid(f86e703adaf4c4c4ea3ed8045c46294c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/배경 색.png using Guid(f86e703adaf4c4c4ea3ed8045c46294c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385a88d6f63a4458992ba3ef64c11f83') in 0.098462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/발바닥.png
+  artifactKey: Guid(4fe1360231c92b54cb92c5553937e026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/발바닥.png using Guid(4fe1360231c92b54cb92c5553937e026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ca391c314a2ada53d0a114fc1f7185') in 0.105919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/휴대폰 전체 모습.png
+  artifactKey: Guid(240e38b97c27c1b48bfe4bd708009fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/휴대폰 전체 모습.png using Guid(240e38b97c27c1b48bfe4bd708009fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec546c9fdd8ba4df70fdf98b41002f4c') in 0.093371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/전파 표시.png
+  artifactKey: Guid(673fe7ba804946d449bf0bf2957ced32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/전파 표시.png using Guid(673fe7ba804946d449bf0bf2957ced32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59dcff1420f5466d72b9239a94ca28db') in 0.103480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 419.094038 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/휴대폰.png
+  artifactKey: Guid(41736f1e64968db449920025560c0c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/휴대폰.png using Guid(41736f1e64968db449920025560c0c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5d324645f8de792931b19beff89ae2') in 0.015786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.525580 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/KakaoTalk_20220913_021005554.jpg
+  artifactKey: Guid(fae6047a3daadf1468189fa8d61f7cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/KakaoTalk_20220913_021005554.jpg using Guid(fae6047a3daadf1468189fa8d61f7cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299cfc3743ad3b2d86ecdb4489f1a8eb') in 0.019451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.243280 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/KakaoTalk_20220913_021005554.jpg
+  artifactKey: Guid(fae6047a3daadf1468189fa8d61f7cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/KakaoTalk_20220913_021005554.jpg using Guid(fae6047a3daadf1468189fa8d61f7cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1762f5f13a071dae9b5f8088d6f804a5') in 0.091194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 161.829091 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2
+  artifactKey: Guid(d0338a28960d7dd4aa6a74b428295306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2 using Guid(d0338a28960d7dd4aa6a74b428295306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3b0e32d03de0888a8a0954546eef5b') in 0.004805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.490030 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/거절.png
+  artifactKey: Guid(3b0400a0e11662843ac2d9d48bf7d34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/거절.png using Guid(3b0400a0e11662843ac2d9d48bf7d34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20df132c3e93dcce6ebe6d9ff6591e0d') in 0.020145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/메시지.png
+  artifactKey: Guid(68a8dfe7370394e4db22a2ba669949e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/메시지.png using Guid(68a8dfe7370394e4db22a2ba669949e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c8b62afb8ed2773cf57a495cd6a06c') in 0.013255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/배터리 표시.png
+  artifactKey: Guid(32966c7a42b3e074fbfdef68e4e34e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/배터리 표시.png using Guid(32966c7a42b3e074fbfdef68e4e34e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc72ca6c28ef817998571ae3bba0832') in 0.012542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/밑에 흰색 줄.png
+  artifactKey: Guid(b5d7fe5179bc53b498cd3f48a9f53504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/밑에 흰색 줄.png using Guid(b5d7fe5179bc53b498cd3f48a9f53504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94bae251efec6ffb303850b7d3c7501') in 0.011315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/응답.png
+  artifactKey: Guid(3eaf8db8f8a4afa49ae7daf835a034ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/응답.png using Guid(3eaf8db8f8a4afa49ae7daf835a034ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b27bdfac8b4fb1b3a35aad1b9daeb13') in 0.012132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/고양이 팔.png
+  artifactKey: Guid(f9668d88ccf0baf4eaaccc8fd5197318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/고양이 팔.png using Guid(f9668d88ccf0baf4eaaccc8fd5197318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd027a544e69a0f320100a651dae9236d') in 0.012058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/시계.png
+  artifactKey: Guid(18f7ed517d452ee43af2159f8659c016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/시계.png using Guid(18f7ed517d452ee43af2159f8659c016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a768b457457f5b921a568058d9356bf') in 0.013353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/와이파이.png
+  artifactKey: Guid(9d56d3404f01bac4c8e028558eadc27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/와이파이.png using Guid(9d56d3404f01bac4c8e028558eadc27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3dca034409993654ac3bb1b8d8e1016') in 0.010494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/발바닥.png
+  artifactKey: Guid(4fe1360231c92b54cb92c5553937e026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/발바닥.png using Guid(4fe1360231c92b54cb92c5553937e026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a10818987d402dd85039316fe28ad4d') in 0.011755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/휴대폰.png
+  artifactKey: Guid(41736f1e64968db449920025560c0c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/휴대폰.png using Guid(41736f1e64968db449920025560c0c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152e61e7555428adf69d29049e23ee5a') in 0.013033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/전파 표시.png
+  artifactKey: Guid(673fe7ba804946d449bf0bf2957ced32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/전파 표시.png using Guid(673fe7ba804946d449bf0bf2957ced32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c1b2e179a44448ab1be0bcf913a497') in 0.012603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.564264 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/거절.png
+  artifactKey: Guid(3b0400a0e11662843ac2d9d48bf7d34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/거절.png using Guid(3b0400a0e11662843ac2d9d48bf7d34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08641de8ad5441260ae0ede6d7071f11') in 0.147310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/메시지.png
+  artifactKey: Guid(68a8dfe7370394e4db22a2ba669949e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/메시지.png using Guid(68a8dfe7370394e4db22a2ba669949e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04d4ebcbd06b3c420cc48a8ba734cfd') in 0.125134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/배터리 표시.png
+  artifactKey: Guid(32966c7a42b3e074fbfdef68e4e34e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/배터리 표시.png using Guid(32966c7a42b3e074fbfdef68e4e34e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1edc66a265ac68cfc8f62b054e7f3e') in 0.094384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/밑에 흰색 줄.png
+  artifactKey: Guid(b5d7fe5179bc53b498cd3f48a9f53504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/밑에 흰색 줄.png using Guid(b5d7fe5179bc53b498cd3f48a9f53504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2576b47594356488acf9556a9b8c83') in 0.099112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/응답.png
+  artifactKey: Guid(3eaf8db8f8a4afa49ae7daf835a034ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/응답.png using Guid(3eaf8db8f8a4afa49ae7daf835a034ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19b434c6f771178114b372ea6273e88') in 0.094969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/고양이 팔.png
+  artifactKey: Guid(f9668d88ccf0baf4eaaccc8fd5197318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/고양이 팔.png using Guid(f9668d88ccf0baf4eaaccc8fd5197318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252df5463caecfa482b3f2e62f59b6e0') in 0.087272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/시계.png
+  artifactKey: Guid(18f7ed517d452ee43af2159f8659c016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/시계.png using Guid(18f7ed517d452ee43af2159f8659c016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2994605f5fd1ed0c5729e043bec837e8') in 0.094654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/와이파이.png
+  artifactKey: Guid(9d56d3404f01bac4c8e028558eadc27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/와이파이.png using Guid(9d56d3404f01bac4c8e028558eadc27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0600ffa3d3dcde5453ec12833b4c0152') in 0.096609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/발바닥.png
+  artifactKey: Guid(4fe1360231c92b54cb92c5553937e026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/발바닥.png using Guid(4fe1360231c92b54cb92c5553937e026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca585527c98f983af425817223e95b7') in 0.095572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/휴대폰.png
+  artifactKey: Guid(41736f1e64968db449920025560c0c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/휴대폰.png using Guid(41736f1e64968db449920025560c0c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b526de9dbba34efe9dc09dd60588b8') in 0.089303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Img/스테이지 E,I/오브젝트2/전파 표시.png
+  artifactKey: Guid(673fe7ba804946d449bf0bf2957ced32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Img/스테이지 E,I/오브젝트2/전파 표시.png using Guid(673fe7ba804946d449bf0bf2957ced32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9b152b0a46617ac53193a04dc2efe7') in 0.094955 seconds 
